@@ -1,0 +1,360 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 50px;
+}   
+nav{
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 20px 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 40px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: #1a1a1a;
+    padding: 10px 20px;
+    
+}
+
+.hero-image{
+    background-image: url("https://cdn.pixabay.com/photo/2022/08/28/19/39/steering-wheel-7417390_1280.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 2px;
+    border-radius: 20px;
+    margin: 2px;
+}
+.hero-text{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: white;
+    font-size: 50px;                          
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    transform: translateY(-50%);
+}
+#content{
+    max-width: 98%;
+    margin: 2px auto;
+    margin-top: 20px;
+    padding: 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.9;
+    color: #333 ;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+
+#content p{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+footer{
+    text-align: center;
+    background-color:#1a1a1a;
+    padding: 10px;
+    color: #f8f9fa;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer:hover{
+    background-color: crimson;
+    transition: 0.3s;
+    color: black;
+}
+
+/* Table styles */
+.table-container{
+    width: 800px;
+    margin: 20px;
+}
+table{
+    width: 100%;
+}
+ thead th{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px;
+    text-align: left;
+ }
+tbody td{
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+
+/* About page styles*/
+
+main{
+    max-width: 95%;
+    margin: 20px auto;
+    line-height: 1.9;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-us h1{
+    text-align: center;
+    font-size: 33px;
+    color: #1a1a1a;
+    margin: 0px;
+}
+.about-content{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.about-us h2{
+    font-size: 24px;
+}
+
+/*Remember to add :hover to each of you know which classes*/
+.our-vision{      
+    background-color: #f8f9fa;
+    padding: 10px 20px;   
+    border-radius: 20px;
+    /* text-align: left;
+    max-width: 40%; */
+}
+.our-vision h2{
+    color: #DC143C;
+}
+
+.our-mission{
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    /* text-align: left;
+    margin-left: 40%; */
+}
+
+.our-core-values{
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    /* text-align: left;
+    max-width: 40%; */
+}
+
+.our-core-values h2{
+    color:#DC143C;
+}
+
+.our-locations{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    /* text-align: left;
+    margin-left: 40%; */
+}
+
+.contact-us-heading{
+    font-size: 20px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: crimson;
+    margin-left: 20px;
+}
+.contact-us{
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* max-width: fit-content;
+    justify-self: center; */
+}
+.about-us p{
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:3px;
+}
+
+.contact-us a{
+    color: coral;
+    text-decoration: none;
+}
+
+.contact-us a:hover{
+    color:crimson;
+    transition: 0.3s;
+}
+
+.contact-us section{
+    margin: 0;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    max-width: 450px;
+}
+
+/* .contact-us section:hover{
+    background-color: #610909;
+    transition: 1s;
+    color: #c4c2c2;
+    width: 100%;
+    height: auto;
+} */
+
+.contact-us span{
+    font-size: 20px;
+    color: coral;
+    font-weight: bold;
+}
+
+/*Start of C0ntact page styles */
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.form{
+    flex: 1;
+    max-width: 400px;
+}
+.map{
+    flex: 1;
+}
+.map iframe{
+    width: 100%;
+    height: 250px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+input[type="text"], textarea{
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: crimson;
+    transition: 0.3s;
+}
+
+/* Start of Gallery page */
+.gallery-container{
+    max-width: 98%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.row1{
+    display: flex;
+    height: 900px;
+    gap: 5px;
+
+}
+
+.right-item{
+    flex: 1;
+    display: grid;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+/* .lexus-img{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+} */
+.row2{
+    margin-top: 0px;
+    display: flex;  
+    gap: 30px;
+    max-width: 69%;
+}
+
+.lamborghini-img{
+    max-width: 67%;
+    float: left;
+    margin-bottom: 0;
+}
+.gt63s-img{
+    float: right;
+    max-width: 31%;
+    margin-top: 250px;
+}
+
+.row3{
+    display: flex;
+    gap: 30px;
+}
+
+.chevrolet-img{
+    max-width: 30%;
+    margin-top: 0;
+    float: left;
+}
+.row4{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    float: right;
+    max-width: 69%;
+    max-height: 300px;
+}
+
+.amg-gt63s-img{
+    float: right;
+    max-width: 69%;
+    margin-top: 150px;
+    display: flex;
+    padding: 3px;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px;
+}   
+img:hover{
+    transform: scale(1.01);
+    transition: 0.4s;
+}   
